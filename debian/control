@@ -1,0 +1,17 @@
+Source: scream
+Section: sound
+Priority: optional
+Maintainer:  <>
+Build-Depends: cmake, debhelper-compat (= 13), libpulse-dev, libasound2-dev
+Standards-Version: 4.5.1
+Homepage: https://github.com/duncanthrax/scream/tree/master/Receivers/unix
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/scream.git
+#Vcs-Browser: https://salsa.debian.org/debian/scream
+
+Package: scream
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Linux receiver for scream audio virtual soundcard
+ for Windows
