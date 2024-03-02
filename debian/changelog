@@ -1,6 +1,5 @@
-scream (4.0-1) UNRELEASED; urgency=low
+scream (4.0-1) stable; urgency=low
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Initial release.
 
- --  <>  Sat, 02 Mar 2024 21:23:49 +0100
+ --  Ch Pr <chriscatango@gmail.com>  Sat, 02 Mar 2024 21:23:49 +0100

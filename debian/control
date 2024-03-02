@@ -1,8 +1,8 @@
 Source: scream
 Section: sound
 Priority: optional
-Maintainer:  <>
-Build-Depends: cmake, debhelper-compat (= 13), libpulse-dev, libasound2-dev
+Maintainer: Ch Pr <chriscatango@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), libasound2-dev, libpulse-dev
 Standards-Version: 4.5.1
 Homepage: https://github.com/duncanthrax/scream/tree/master/Receivers/unix
 Rules-Requires-Root: no
